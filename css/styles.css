@@ -327,3 +327,14 @@ color:var(--primary-text-color);
     letter-spacing: 0.02em;
     color:var(--sectoin-bg-color);
 }
+
+.footer.container {
+    margin-top: 100px;
+    margin-right: 1020px;
+    margin-bottom: 100px;
+    margin-left: 156px;
+}
+
+.flow {
+    max-width: 364px;
+}
