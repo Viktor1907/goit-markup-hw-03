@@ -241,6 +241,34 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
+/* goal-style */
+
+.goal-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.goal-item.list {
+    background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3);
+}
+
+.list-goal {
+    display: flex;
+    gap: 24px;
+}
+
+.goal-style {
+    padding-bottom: 120px;
+}
+
+
+
 /* Sectio-team */
 
 .sectio.team {
@@ -251,10 +279,6 @@ color: var(--primary-text-color);
 
 .compoid.list {
     background-color: #FFFFFF;
-}
-
-.first-title-team {
-    margin-bottom: 72px;
 }
 
 .second-title.team {
