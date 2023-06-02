@@ -246,12 +246,15 @@ color: var(--primary-text-color);
 .sectio.team {
     padding: 120px 0;
     background-color: #F4F4FD;
-    margin-bottom: 72px;
 }
 
 
 .compoid.list {
     background-color: #FFFFFF;
+}
+
+.first-title-team {
+    margin-bottom: 72px;
 }
 
 .second-title.team {
