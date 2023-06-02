@@ -54,7 +54,24 @@ ol {
     background-color:var(--title-text-color);
 }
 
-/* header */ 
+/* header-style */ 
+
+.header-style {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+
+.container.header-styles {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
 .header {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -104,6 +121,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--title-text-color);
+display: flex;
+gap: 40px;
 }
 
 /* header-address link */
@@ -116,6 +135,8 @@ color:var(--title-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-link:hover,
@@ -235,6 +256,12 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
+}
+
+/* container possibilities */
+
+.container.possibilities {
+    display: flex;
 }
 
 /* goal-style */
