@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
     --primary-text-color: #434455;
     --title-text-color: #2E2F42;
@@ -15,6 +25,21 @@ body {
     font-family: "Roboto", sans-serif;
     background-color:var(--primary-bg-color);
     color: var(--primary-text-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
 }
 
 .list { 
@@ -219,8 +244,10 @@ color: var(--primary-text-color);
 /* Sectio-team */
 
 .sectio.team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
+
 
 .compoid.list {
     background-color: #FFFFFF;
@@ -231,14 +258,55 @@ color: var(--primary-text-color);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--title-text-color);
+    margin-bottom: 72px;
 }
 
-.paragraf {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--primary-text-color);
+.team-post {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.compoid-list {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.sectio-team {
+    padding: 120px 0;
+}
+
+.compound-list {
+    gap: 24px;
+    display: flex;
+
+}
+
+.team-name {
+    padding: 32px 16px 32px;
+}
+
+.team-posts {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /*row list  */
@@ -328,13 +396,3 @@ color:var(--primary-text-color);
     color:var(--sectoin-bg-color);
 }
 
-.footer.container {
-    margin-top: 100px;
-    margin-right: 1020px;
-    margin-bottom: 100px;
-    margin-left: 156px;
-}
-
-.flow {
-    max-width: 364px;
-}
