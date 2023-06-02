@@ -144,25 +144,6 @@ color: var(--accent-color);
 
 /* Header-buttion */
 
-.header-buttion.solnable:hover,
-.header-buttion.solnable:focus {
-    background-color: var(--accent-color);
-    color:var(--primary-bg-color);
-}
-
-.header-buttion.solnable {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    background-color: #4d5ae5;
-    color: #ffffff;
-} 
-
-
 .header-buttion.primatery:hover,
 .header-buttion.primatery:focus {
     color:var(--primary-bg-color);
@@ -198,10 +179,7 @@ color: var(--accent-color);
     color: var(--footer-logo-color);
 }
 
-.solvable-title:hover,
-.solvable-title:focus  {
-color: var(--accent-color);
-}
+/* solvable */
 
 .solvable-title {
 font-weight: 700;
@@ -209,9 +187,27 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-background-color: #4D5AE5;
 color:var(--primary-bg-color);
 }
+
+.header-buttion.solnable:hover,
+.header-buttion.solnable:focus {
+    background-color: var(--accent-color);
+    color:var(--primary-bg-color);
+}
+
+.header-buttion.solnable {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin: 0 auto 48px;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    color: #ffffff;
+} 
 
 .second-title {
 font-weight: 500;
