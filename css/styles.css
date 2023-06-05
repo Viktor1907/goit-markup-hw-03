@@ -410,6 +410,11 @@ color: var(--primary-text-color);
     /* border: 1px solid black; */
 }
 
+.footer-logo.link{
+    display: inline-block;
+}
+
+
 .footer-logo-studio {
     color: var(--sectoin-bg-color);
 }
