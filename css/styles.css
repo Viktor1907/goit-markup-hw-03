@@ -389,9 +389,9 @@ color: var(--primary-text-color);
 }
 
 .footer .container {
-    display: flex;
+    display: inline-block;
     width: 1158px;
-    padding: 0 15px;
+    padding: 100px 0;
     margin: 0 auto;
     flex-direction: column;
 }
@@ -408,10 +408,6 @@ color: var(--primary-text-color);
     color: var(--footer-logo-color);
     margin-bottom: 16px;
     /* border: 1px solid black; */
-}
-
-.footer-logo.link{
-    display: inline-block;
 }
 
 
