@@ -56,15 +56,16 @@ ol {
 
 /* header-style */ 
 
-.header-style {
+.header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
 }
 
-.container.header-styles {
+.container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
 }
 
 .list {
@@ -83,7 +84,30 @@ ol {
     color: var(--footer-logo-color);
 }
 
+.header-logo {
+    display: flex;
+    width: 120px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-color);
+    margin-bottom: 16px;
+    /* border: 1px solid black; */
+}
+
+
+.header-logo-studio {
+    color: var(--sectoin-bg-color);
+}
+
 /* header-navigation link */
+
+.navigation-list.link {
+    display: flex;
+}
 
 .logo-link-link {
     font-family: "Raleway", sans-serif;
@@ -137,6 +161,10 @@ gap: 40px;
     color: var(--primary-text-color);
     display: flex;
     gap: 40px;
+}
+
+.header-address.link {
+    display: flex;
 }
 
 .header-address-link:hover,
