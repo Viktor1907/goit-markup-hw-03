@@ -37,6 +37,7 @@ h5,
 h6 {
     margin: 0;
 }
+
 ul,
 ol {
     margin: 0;
@@ -191,12 +192,12 @@ color: var(--accent-color);
     margin-right: 0;
 }
 
+/* Header-buttion */
+
 .header-buttion:hover,
 .header-buttion:focus {
 color: var(--accent-color);
 }
-
-/* Header-buttion */
 
 .header-buttion.primatery:hover,
 .header-buttion.primatery:focus {
@@ -313,12 +314,6 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-.list {
-    justify-content: center;
-    gap: 24px;
-    margin-bottom: 72px;
-}
-
 .container.possibilities {
     display: flex;
 }
@@ -331,28 +326,6 @@ color: var(--primary-text-color);
 .second-title.list {
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
-}
-
-.header-buttion.secondary:hover,
-.header-buttion.secondary:focus {
-    background: var(--accent-color);
-    color:var(--primary-bg-color);
-    border: 1px solid transparent;
-}
-
-.header-buttion.secondary {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    background: var(--sectoin-bg-color);
-    color: var(--footer-logo-color);
-    padding: 12px 24px;
-    border: 1px solid #e7e9fc;
-    border-radius: 4px;
 }
 
 /* goal-style */
@@ -462,9 +435,35 @@ color: var(--primary-text-color);
     padding: 96px 0 120px 0;
 }
 
+/* list */
 
+.list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 
+.header-buttion.secondary:hover,
+.header-buttion.secondary:focus {
+    background: var(--accent-color);
+    color:var(--primary-bg-color);
+    border: 1px solid transparent;
+}
 
+.header-buttion.secondary {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background: var(--sectoin-bg-color);
+    color: var(--footer-logo-color);
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
 
 /*row list  */
 
@@ -472,12 +471,17 @@ color: var(--primary-text-color);
     list-style: none;
 }
 
+.row-list.link {
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
 .horo-row {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);
+    color: var(--title-text-color);    
 }
 
 .botton-row {
