@@ -306,11 +306,14 @@ color: var(--primary-text-color);
     padding: 120px 0;
 }
 
-.visually-hidden {
+.visually-title {
     font-weight: 500;
     font-size: 20px;
     color: var(--title-text-color);
 }
+
+
+
 
 .container.possibilities {
     display: flex;
