@@ -361,8 +361,14 @@ color: var(--primary-text-color);
     background-color: #F4F4FD;
 }
 
+
 .compoid.list {
     background-color: #FFFFFF;
+    display: flex;
+}
+
+.first-title.team {
+    margin-bottom: 72px;
 }
 
 .second-title.team {
@@ -372,6 +378,7 @@ color: var(--primary-text-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--title-text-color);
+    text-align: center;
     margin-bottom: 72px;
 }
 
