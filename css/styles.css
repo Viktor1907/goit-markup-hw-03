@@ -312,8 +312,11 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-
-
+.list {
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 
 .container.possibilities {
     display: flex;
