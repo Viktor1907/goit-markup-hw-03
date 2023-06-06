@@ -365,8 +365,7 @@ color: var(--primary-text-color);
 .compoid.list {
     background-color: #FFFFFF;
     display: flex;
-    margin-bottom: 8px;
-}
+    }
 
 .first-title.team {
     margin-bottom: 72px;
