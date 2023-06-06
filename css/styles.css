@@ -95,6 +95,7 @@ ol {
     text-transform: uppercase;
     color: var(--footer-logo-color);
     margin-bottom: 16px;
+    margin-right: 76px;
     /* border: 1px solid black; */
 }
 
@@ -105,19 +106,9 @@ ol {
 
 /* header-navigation link */
 
-.navigation-list.link {
+.header-navigation.link {
     display: flex;
-}
-
-.web.link {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+    align-items: center;
 }
 
 .style-logos.link {
@@ -147,14 +138,12 @@ letter-spacing: 0.02em;
 color:var(--title-text-color);
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 
 /* header-address link */
 
 .header-address-link-list-link {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -165,6 +154,7 @@ gap: 40px;
 
 .header-address.link {
     display: flex;
+    margin-right: 40px;
 }
 
 .header-address-link:hover,
@@ -177,9 +167,6 @@ color: var(--accent-color);
 }
 
 .header-address-link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
