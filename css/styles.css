@@ -223,6 +223,13 @@ color: var(--accent-color);
     color: var(--primary-bg-color);
 }
 
+.buttion-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
 .header-buttion.secondary:hover,
 .header-buttion.secondary:focus {
     background: var(--accent-color);
