@@ -437,6 +437,12 @@ color: var(--primary-text-color);
     padding: 96px 0 120px 0;
 }
 
+.visually-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--title-text-color);
+}
+
 /* list */
 
 .list {
