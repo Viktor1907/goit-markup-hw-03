@@ -135,6 +135,13 @@ ol {
     color: var(--title-text-color);
 }
 
+.navigation-list {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+}
+
 .navigation-list:hover,
 .navigation-list:focus {
 color: var(--accent-color);
