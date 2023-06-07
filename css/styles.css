@@ -46,10 +46,15 @@ ol {
 
 .list { 
     list-style: none;
+    margin: 0; 
+    padding: 0;
+    
 }
 
 .link {
     text-decoration: none;
+    margin: 0; 
+    padding: 0;
 }
 
 .solvable{
@@ -75,6 +80,8 @@ ol {
 .list {
     display: flex;
     align-items: center;
+    margin: 0; 
+    padding: 0;
 }
 
 .header {
@@ -468,7 +475,7 @@ color: var(--primary-text-color);
     cursor: pointer;
     background: var(--sectoin-bg-color);
     color: var(--footer-logo-color);
-    padding: 12px 24px;
+    padding: 12px 24px 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
 }
@@ -477,7 +484,9 @@ color: var(--primary-text-color);
 
 .row-list {
     list-style: none;
+    display: flex;
     flex-wrap: wrap;
+    column-gap: 48px;
 }
 
 .row-list.link {
