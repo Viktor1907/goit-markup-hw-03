@@ -53,8 +53,6 @@ ol {
 
 .link {
     text-decoration: none;
-    margin: 0; 
-    padding: 0;
 }
 
 .solvable{
@@ -65,23 +63,31 @@ ol {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
+    
 }
 
 .container {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    border-bottom: 1px solid #e7e9fc
-
 }
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+
 
 .list {
     display: flex;
     align-items: center;
-    margin: 0; 
-    padding: 0;
+    gap: 40px;
 }
 
 .header {
@@ -96,18 +102,14 @@ ol {
 }
 
 .header-logo {
-    display: flex;
-    width: 120px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: var(--footer-logo-color);
-    margin-bottom: 16px;
-    margin-right: 76px;
-    /* border: 1px solid black; */
 }
 
 
@@ -121,6 +123,7 @@ ol {
     display: flex;
     align-items: center;
     margin-right: 76px;
+    gap: 40px;
 }
 
 .style-logos.link {
@@ -174,6 +177,7 @@ padding: 24px 0;
 .header-address.link {
     display: flex;
     margin-right: 40px;
+    gap: 40px;
 }
 
 .header-address-link:hover,
