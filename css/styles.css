@@ -76,13 +76,12 @@ ol {
     display: flex;
     align-items: center;
     padding: 0 15px;
+    justify-content: space-around;
 }
 
 .header-logo {
     margin-right: 76px;
 }
-
-
 
 .list {
     display: flex;
@@ -263,7 +262,7 @@ color: var(--accent-color);
 
 .solvable {
     padding: 188px 0;
-    display: flexbox;
+    display: block;
 }
 
 .solvable-title {
@@ -274,7 +273,12 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color:var(--primary-bg-color);
     max-width: 496px;
+    width: 496px;
+    padding-top: 188px;
+    margin-left :auto;
+    margin-right :auto;
 }
+
 
 .header-buttion.solnable:hover,
 .header-buttion.solnable:focus {
@@ -341,6 +345,10 @@ color: var(--primary-text-color);
 }
 
 .container.possibilities {
+    display: flex;
+}
+
+.main-list.list {
     display: flex;
 }
 
@@ -435,7 +443,7 @@ color: var(--primary-text-color);
     text-align: center;
     padding: 32px 16px 32px;
     display: flex;
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4);  
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -513,6 +521,7 @@ color: var(--primary-text-color);
 }
 
 .row-info {
+    flex-wrap: wrap; 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
