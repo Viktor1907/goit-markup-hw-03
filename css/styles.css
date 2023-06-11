@@ -88,6 +88,11 @@ ol {
     gap: 40px;
 }
 
+.container.header-inner {
+    display: flex;
+    align-items: center;
+}
+
 .header {
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -108,9 +113,6 @@ ol {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--footer-logo-color);
-    margin-top: 24px;
-    margin-bottom: 24px;
-    
 }
 
 
@@ -126,7 +128,7 @@ ol {
     margin-top: 24px;
     margin-right: 76px;
     margin-bottom: 24px;
-    gap: 40px;
+    margin-left: 76px
 }
 
 .style-logos.link {
@@ -142,7 +144,7 @@ ol {
 }
 
 .navigation-list {
-    display: flex;
+    display: block;
     align-items: center;
     margin: 0; 
     padding: 0;
@@ -173,6 +175,8 @@ padding: 24px 0;
 
 .navigation-list.link {
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /* header-address link */
@@ -186,12 +190,6 @@ padding: 24px 0;
     gap: 40px;
 }
 
-.header-address.link {
-    display: flex;
-    margin-right: 40px;
-    gap: 40px;
-}
-
 .header-address-link:hover,
 .header-address-link:focus {
 color: var(--accent-color);
@@ -202,11 +200,12 @@ color: var(--accent-color);
 }
 
 .header-address-link {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
-margin-right: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-left: auto;
+    gap: 40px;
 }
 
 .header-address-link-mail:hover,
@@ -228,6 +227,14 @@ color: var(--accent-color);
 
 .header-address-link.list.link {
     gap: 40px;
+}
+
+.header-address-link + .link {
+    margin-left: 40px;
+}
+
+.header-address.link {
+    margin-left: auto;
 }
 
 /* Header-buttion */
@@ -325,14 +332,7 @@ color: var(--accent-color);
     display: block;
 } 
 
-.second-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-background-color: var(--primary-bg-color);
-color: var(--title-text-color);
-}
+
 
 .first-title {
 font-family: 'Roboto';
@@ -382,6 +382,37 @@ color: var(--primary-text-color);
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
+
+.compound-list {
+    
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+}
+
+.compound-list.list:not(:last-child) {
+    margin-right: 24px;
+} 
+
+.compound-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.main-list.list.about {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+
+
+
+
+
 
 /* goal-style */
 
