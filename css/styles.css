@@ -439,25 +439,22 @@ color: var(--primary-text-color);
 /* Sectio-team */
 
 .sectio-team {
-    display: flex;    
+    display: block;    
     flex-wrap: wrap;
 }
 
 .sectio.team {
     padding: 120px 0;
     background-color: #F4F4FD;
-}
+    }
 
-.container.team {
-    display: block;  
-}
 
-.compoid {
+.compoid.list {
     background-color: #FFFFFF;
     display:flex;
-}
+    }
 
-.compoid {
+.compoid.list {
     display: flex;    
     flex-wrap: wrap;
 }
@@ -476,10 +473,6 @@ color: var(--primary-text-color);
     text-transform: capitalize;
     color: var(--title-text-color);
     margin-bottom: 72px;
-}
-
-.photo {
-    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
