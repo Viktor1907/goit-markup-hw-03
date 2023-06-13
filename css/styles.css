@@ -504,6 +504,10 @@ color: var(--primary-text-color);
     margin-bottom: 8px;
     }
 
+.photo.compoid.list.team {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .sectio-team {
     padding: 120px 0;
 }
