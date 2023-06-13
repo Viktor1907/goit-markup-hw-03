@@ -476,6 +476,10 @@ color: var(--primary-text-color);
 }
 
 .team-item {
+    margin-bottom: 8px;
+}
+
+.team-item {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -505,7 +509,10 @@ color: var(--primary-text-color);
     }
 
 .photo.compoid.list.team {
-    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px ; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px;
 }
 
 .sectio-team {
