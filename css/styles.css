@@ -366,7 +366,7 @@ color: var(--primary-text-color);
 }
 
 .container.possibilities {
-    display: flex;
+    display: block;
 }
 
 .main-list-list {
@@ -384,7 +384,7 @@ color: var(--primary-text-color);
 }
 
 .compound-list {
-    
+    display: block;
     margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
