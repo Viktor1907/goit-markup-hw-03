@@ -446,13 +446,16 @@ color: var(--primary-text-color);
 .sectio.team {
     padding: 120px 0;
     background-color: #F4F4FD;
-    }
+}
 
+.container.team {
+    display: block;  
+}
 
 .compoid {
     background-color: #FFFFFF;
     display:flex;
-    }
+}
 
 .compoid {
     display: flex;    
@@ -460,7 +463,6 @@ color: var(--primary-text-color);
 }
 
 .compoid.list.team {
-    display: flex;
     list-style: none;
     column-gap: 48px;
 }
