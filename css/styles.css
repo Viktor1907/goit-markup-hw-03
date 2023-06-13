@@ -460,6 +460,7 @@ color: var(--primary-text-color);
 }
 
 .compoid.list.team {
+    display: flex;
     list-style: none;
     column-gap: 48px;
 }
