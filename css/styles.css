@@ -374,6 +374,8 @@ color: var(--primary-text-color);
 
 .main-list-list {
     display: flex;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .compound.list {
