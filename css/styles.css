@@ -373,12 +373,19 @@ color: var(--primary-text-color);
     display: flex;
 }
 
+
 .compound.list {
     display: flex;
     gap: 24px;
 }
 
-.second-title.list {
+.team.list {
+    display: block;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+}
+
+.compound-list {
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
