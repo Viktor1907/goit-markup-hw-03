@@ -389,14 +389,6 @@ color: var(--primary-text-color);
     margin-bottom: 8px;
 }
 
-.team-list {
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px; 
-    border-top-right-radius: 0px ; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius:4px;
-}
-
 .compound-list {
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
@@ -510,6 +502,8 @@ color: var(--primary-text-color);
     margin-bottom: 8px;
 }
 
+
+
 .team-post {
     font-weight: 400;
     font-size: 16px;
@@ -528,6 +522,7 @@ color: var(--primary-text-color);
     }
 
 .photo.compoid.list.team {
+    border-radius: 0px 0px 4px 4px;
     border-top-left-radius: 0px; 
     border-top-right-radius: 0px ; 
     border-top-right-radius: 4px; 
