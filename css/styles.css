@@ -645,7 +645,7 @@ color: var(--primary-text-color);
 }
 
 .horo-row {
-    margin-bottom: 8px;
+    margin-bottom: 48px;
 }
 
 .horo-row.link.row-list {
