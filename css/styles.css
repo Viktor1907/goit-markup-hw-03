@@ -613,7 +613,6 @@ color: var(--primary-text-color);
 .row-list.link {
     list-style: none;
     column-gap: 48px;
-    margin-bottom: 0;
 }
 
 .row-list.link:nth-child(3n) {
@@ -624,7 +623,7 @@ color: var(--primary-text-color);
     margin-right: 0;
 }
 
-.row-list.link :nth-last-child(-n + 3) {
+.row-list.link :nth-last-child(3n) {
     margin-bottom: 0;
 }
 
@@ -646,6 +645,10 @@ color: var(--primary-text-color);
 }
 
 .horo-row {
+    margin-bottom: 8px;
+}
+
+.horo-row.link.row-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
