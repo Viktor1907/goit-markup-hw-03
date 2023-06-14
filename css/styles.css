@@ -356,7 +356,8 @@ color: var(--primary-text-color);
 /* container possibilities */
 
 .Possibilities {
-    padding: 120px 0;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .visually-title {
@@ -367,6 +368,8 @@ color: var(--primary-text-color);
 
 .container.possibilities {
     display: block;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .main-list-list {
