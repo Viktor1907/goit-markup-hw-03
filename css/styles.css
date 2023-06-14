@@ -373,7 +373,6 @@ color: var(--primary-text-color);
     display: flex;
 }
 
-
 .compound.list {
     display: flex;
     gap: 24px;
