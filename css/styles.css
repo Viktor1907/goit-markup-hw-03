@@ -492,16 +492,13 @@ color: var(--primary-text-color);
     margin-bottom: 72px;
 }
 
-.photo {
+.team-item {
+    margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
     border-top-left-radius: 0px; 
     border-top-right-radius: 0px ; 
     border-top-right-radius: 4px; 
     border-bottom-left-radius:4px;
-}
-
-.team-item {
-    margin-bottom: 8px;
 }
 
 .team-item {
@@ -528,22 +525,9 @@ color: var(--primary-text-color);
 .compoid-list {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px; 
-    border-top-right-radius: 0px ; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius:4px;
     gap: 24px;
     margin-bottom: 8px;
     }
-
-.team-name {
-    border-radius: 0px 0px 4px 4px;
-    border-top-left-radius: 0px; 
-    border-top-right-radius: 0px ; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius:4px;
-}
 
 .sectio-team {
     padding: 120px 0;
