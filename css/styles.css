@@ -492,7 +492,7 @@ color: var(--primary-text-color);
     margin-bottom: 72px;
 }
 
-.team-item {
+.team-name {
     margin-bottom: 8px;
     border-radius: 0px 0px 4px 4px;
     border-top-left-radius: 0px; 
