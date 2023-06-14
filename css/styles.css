@@ -492,6 +492,14 @@ color: var(--primary-text-color);
     margin-bottom: 72px;
 }
 
+.photo {
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px ; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius:4px;
+}
+
 .team-item {
     margin-bottom: 8px;
 }
