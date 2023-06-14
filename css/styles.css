@@ -385,6 +385,10 @@ color: var(--primary-text-color);
     width: calc((100% - 72px) / 4);
 }
 
+.team-list {
+    margin-bottom: 8px;
+}
+
 .compound-list {
     width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
