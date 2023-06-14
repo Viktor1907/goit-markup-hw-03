@@ -606,9 +606,18 @@ color: var(--primary-text-color);
 }
 
 .row-list.link {
+    row-gap: 48px;
+    margin-bottom: 48px;
+}
+
+.row-list.link {
     list-style: none;
     column-gap: 48px;
-    
+    margin-bottom: 0;
+}
+
+.row-list.link:nth-child(3n) {
+
 }
 
 .row-list.link:nth-child(3n) {
