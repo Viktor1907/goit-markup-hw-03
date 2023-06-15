@@ -633,7 +633,7 @@ color: var(--primary-text-color);
 }
 
 .horo-row {
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
 
 .horo-row.link.row-list {
