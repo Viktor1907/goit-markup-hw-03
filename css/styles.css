@@ -614,7 +614,7 @@ color: var(--primary-text-color);
     row-gap: 48px;
 }
 
-.row-list.link :nth-last-child(-n + 3) {
+.row-list.link :nth-last-child(3n) {
     margin-bottom: 0;
 }
 
