@@ -455,23 +455,16 @@ color: var(--primary-text-color);
 
 /* Sectio-team */
 
-.sectio-team {
+.sectio.team {
     display: block;    
     flex-wrap: wrap;
-}
-
-.sectio.team {
     padding: 120px 0;
     background-color: #F4F4FD;
     }
 
-
 .compoid.list {
     background-color: #FFFFFF;
     display:flex;
-    }
-
-.compoid.list {
     display: flex;    
     flex-wrap: wrap;
 }
@@ -479,17 +472,6 @@ color: var(--primary-text-color);
 .compoid.list.team {
     list-style: none;
     column-gap: 48px;
-}
-
-.first-title.team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--title-text-color);
-    margin-bottom: 72px;
 }
 
 .team-name {
@@ -527,7 +509,8 @@ color: var(--primary-text-color);
     background-color: #FFFFFF;
     gap: 24px;
     margin-bottom: 8px;
-    }
+    border-radius: 0px 0px 4px 4px;
+}
 
 .sectio-team {
     padding: 120px 0;
@@ -554,6 +537,17 @@ color: var(--primary-text-color);
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.first-title.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+    margin-bottom: 72px;
 }
 
 /*Portfolio*/
