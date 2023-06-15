@@ -472,6 +472,8 @@ color: var(--primary-text-color);
 .compoid.list.team {
     list-style: none;
     column-gap: 48px;
+    margin-bottom: 8px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-name {
@@ -508,8 +510,6 @@ color: var(--primary-text-color);
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     gap: 24px;
-    margin-bottom: 8px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .sectio-team {
