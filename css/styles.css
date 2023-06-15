@@ -612,6 +612,7 @@ color: var(--primary-text-color);
 
 .row-list.link {
     row-gap: 48px;
+    margin-bottom: 48px;
 }
 
 .row-list.link :nth-last-child(3n) {
