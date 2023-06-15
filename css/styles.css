@@ -383,15 +383,6 @@ color: var(--primary-text-color);
     gap: 24px;
 }
 
-.team.list {
-    display: block;
-    margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
-}
-
-.team-list {
-    margin-bottom: 8px;
-}
 
 .compound-list {
     width: calc((100% - 72px) / 4);
@@ -510,9 +501,22 @@ color: var(--primary-text-color);
     gap: 24px;
 }
 
+
+
 .sectio-team {
     padding: 120px 0;
 }
+
+.team.list {
+    display: block;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+}
+
+.team-list {
+    margin-bottom: 8px;
+}
+
 
 .team-name {
     text-align: center;
@@ -597,6 +601,14 @@ color: var(--primary-text-color);
     flex-wrap: wrap;
 }
 
+.row.list {
+    row-gap: 48px;
+}
+
+.row.list:nth-last-child(3n) {
+    margin-bottom: 0;
+}
+
 .row-list.link {
     row-gap: 48px;
     margin-bottom: 48px;
@@ -628,7 +640,7 @@ color: var(--primary-text-color);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    margin-bottom: 0;
 }
 
 .horo-row {
