@@ -91,6 +91,7 @@ ol {
 .container.header-inner {
     display: flex;
     align-items: center;
+    text-transform: uppercase;
 }
 
 .header {
