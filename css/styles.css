@@ -339,6 +339,10 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
+.possibilities {
+    padding: 120px 0;
+}
+
 .container.possibilities {
     display: block;
     padding: 120px 0;
