@@ -86,17 +86,12 @@ ol {
     text-transform: uppercase;
     text-decoration: none;
     color: var(--footer-logo-color);
-    margin-top: 24px;
     margin-right: 76px;
-    margin-bottom: 24px;
 }
 
 .header-navigation.link {
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-right: 76px;
-    margin-bottom: 24px;
     margin-left: 76px
 }
 
@@ -163,8 +158,7 @@ color: var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    margin-left: auto;
-    gap: 40px;
+
 }
 
 .header-address-link-mail {
@@ -183,10 +177,6 @@ color: var(--accent-color);
 .list.link:not(:last-child) {
     margin-right: 40px;
 } 
-
-.header-address-link.list.link {
-    gap: 40px;
-}
 
 .header-address-link + .link {
     margin-left: 40px;
@@ -337,11 +327,6 @@ color: var(--primary-text-color);
 }
 
 /* container possibilities */
-
-.possibilities {
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
 
 .visually-title {
     font-weight: 500;
