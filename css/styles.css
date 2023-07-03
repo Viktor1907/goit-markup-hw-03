@@ -198,14 +198,6 @@ color: var(--accent-color);
     gap: 40px;
 }
 
-
-/* main */
-
-.solvable {
-    background-color: var(--title-text-color);
-    padding: 188px 0;
-}
-
 /* header-style */ 
 
 .container {
@@ -264,12 +256,18 @@ color: var(--accent-color);
     padding: 12px 24px;
 }
 
+/* main */
+
+.solvable {
+    background-color: var(--title-text-color);
+}
+
+
 /* solvable */
 
 .solvable {
     padding: 188px 0;
     display: block;
-    padding: 120px 0;
 }
 
 .solvable-title {
