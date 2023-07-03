@@ -264,10 +264,6 @@ color: var(--accent-color);
 /* solvable */
 
 .solvable {
-    display: block;
-}
-
-.container.solvable {
     padding: 188px 0;
 }
 
@@ -337,8 +333,7 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-.container.possibilities {
-    display: block;
+.possibilities {
     padding: 120px 0;
 }
 
