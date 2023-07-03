@@ -158,6 +158,7 @@ color: var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    gap: 40px;
 
 }
 
@@ -201,6 +202,7 @@ color: var(--accent-color);
 
 .solvable {
     background-color: var(--title-text-color);
+    padding: 120px 0;
 }
 
 /* header-style */ 
