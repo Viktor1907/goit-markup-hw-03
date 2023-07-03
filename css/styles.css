@@ -266,8 +266,11 @@ color: var(--accent-color);
 /* solvable */
 
 .solvable {
-    padding: 188px 0;
     display: block;
+}
+
+.container.solvable {
+    padding: 188px 0;
 }
 
 .solvable-title {
