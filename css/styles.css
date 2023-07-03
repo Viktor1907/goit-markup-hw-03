@@ -50,6 +50,7 @@ ol {
 
 .link {
     text-decoration: none;
+    list-style: none;
 }
 
 
@@ -92,7 +93,6 @@ ol {
 .header-navigation.link {
     display: flex;
     align-items: center;
-    margin-left: 76px
 }
 
 .style-logos.link {
@@ -138,8 +138,6 @@ padding: 24px 0;
 
 .navigation-list.link {
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 /* contacts */
@@ -339,12 +337,9 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-.possibilities {
-    padding: 120px 0;
-}
-
 .container.possibilities {
     display: block;
+    padding: 120px 0;
 }
 
 .main-list-list {
@@ -541,7 +536,7 @@ color: var(--primary-text-color);
 .list {
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
+
 }
 
 .header-buttion.secondary:hover,
