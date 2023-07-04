@@ -46,11 +46,12 @@ ol {
 
 .list { 
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
     text-decoration: none;
-    list-style: none;
 }
 
 
@@ -88,11 +89,13 @@ ol {
     text-decoration: none;
     color: var(--footer-logo-color);
     margin-right: 76px;
+
 }
 
 .header-navigation.link {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .style-logos.link {
@@ -107,11 +110,12 @@ ol {
     color: var(--title-text-color);
 }
 
-.navigation-list {
-    display: block;
+.navigation-menu {
     align-items: center;
     margin: 0; 
     padding: 0;
+    display: flex;
+    gap: 40px;
 }
 
 .navigation-list:hover,
@@ -129,7 +133,6 @@ letter-spacing: 0.02em;
 color:var(--title-text-color);
 display: flex;
 gap: 40px;
-padding: 24px 0;
 }
 
 .navigation-list.link:not(:last-child) {
@@ -157,7 +160,10 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     gap: 40px;
-
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .header-address-link-mail {
@@ -190,11 +196,6 @@ color: var(--accent-color);
     gap: 40px;
 } 
 
-.list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
 
 /* header-style */ 
 
@@ -275,7 +276,7 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color:var(--primary-bg-color);
     max-width: 496px;
-    padding-top: 188px;
+
     margin-left :auto;
     margin-right :auto;
 }
@@ -526,13 +527,12 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-/* list */
-
-.list {
-    justify-content: center;
-    gap: 24px;
-
+.main-list.list {
+    display: flex;
+    gap: 8px;
 }
+
+/* list */
 
 .header-buttion.secondary:hover,
 .header-buttion.secondary:focus {
