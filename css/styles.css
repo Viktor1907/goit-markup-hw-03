@@ -161,7 +161,6 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     gap: 40px;
-    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -188,8 +187,10 @@ color: var(--accent-color);
     margin-left: 40px;
 }
 
-.header-address.link {
+.header-post.link {
     margin-left: auto;
+    font-style: normal;
+    padding: 24px 0;
 }
 
 .header-address-link.list.link:not(:last-child) {
