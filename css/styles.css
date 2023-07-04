@@ -145,7 +145,7 @@ gap: 40px;
 
 /* contacts */
 
-.header-address {
+.header-address.link {
     font-style: normal; 
     padding: 24px 0;
 }
