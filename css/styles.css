@@ -343,7 +343,14 @@ color: var(--primary-text-color);
     display: flex;
     padding-top: 120px; 
     padding-bottom: 120px;
+
 }
+
+.main-list-list:not(:last-child) {
+    margin-right: 40px;
+    gap: 40px;
+}
+
 
 .compound.list {
     display: flex;
