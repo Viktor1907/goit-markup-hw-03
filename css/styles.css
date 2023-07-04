@@ -5,7 +5,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 :root {
@@ -68,6 +68,9 @@ ol {
     align-items: center;
     padding: 0 15px;
     justify-content: space-around;
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-navigation {
@@ -77,7 +80,6 @@ ol {
 
 
 /* navigation */
-
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -336,6 +338,19 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
+
 .possibilities {
     padding: 120px 0;
 }
@@ -347,9 +362,9 @@ color: var(--primary-text-color);
 
 }
 
-.main-list-list:not(:last-child) {
-    margin-right: 40px;
-    gap: 40px;
+.main-list.list:not(:last-child) {
+    margin-right: 24px;
+    gap: 24px;
 }
 
 
@@ -534,6 +549,19 @@ color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     color: var(--title-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .main-list.list {
