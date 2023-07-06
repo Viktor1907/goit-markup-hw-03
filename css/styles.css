@@ -172,148 +172,6 @@ ol {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* navigation *
-
-.header-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--footer-logo-color);
-    margin-right: 76px;
-}
-
-.header-navigation.link {
-    display: flex;
-    align-items: center;
-    padding: 24px 0;
-}
-
-.style-logos.link {
-    font-family: "Raleway";
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--title-text-color);
-}
-
-.navigation-menu {
-    align-items: center;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    gap: 40px;
-}
-
-.navigation-list:hover,
-.navigation-list:focus {
-color: var(--accent-color);
-}
-
-.navigation-list {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:var(--title-text-color);
-display: flex;
-gap: 40px;
-}
-
-.navigation-list.link:not(:last-child) {
-    margin-right: 40px;
-}
-
-.navigation-list.link {
-    gap: 40px;
-}
-
-/* contacts *
-
-.header-address.link {
-    font-style: normal; 
-    padding: 24px 0;
-}
-
-.header-address-link:hover,
-.header-address-link:focus {
-color: var(--accent-color);
-}
-
-.header-address-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    gap: 40px;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.header-address-link-mail {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    margin-right: 0;
-}
-
-.header-address-link-mail:hover,
-.header-address-link-mail:focus {
-color: var(--accent-color);
-}
-
-.list.link:not(:last-child) {
-    margin-right: 40px;
-} 
-
-.header-address-link + .link {
-    margin-left: 40px;
-}
-
-.header-post.link {
-    margin-left: auto;
-    font-style: normal;
-    padding: 24px 0;
-}
-
-.header-address-link.list.link:not(:last-child) {
-    margin-right: 40px;
-    gap: 40px;
-} 
-
-
 /* Header-buttion */
 
 .header-buttion:hover,
@@ -437,13 +295,6 @@ color: var(--primary-text-color);
 
 /* container possibilities */
 
-.visually-title {
-    font-weight: 500;
-    font-size: 20px;
-    color: var(--title-text-color);
-}
-
-
 .possibilities {
     padding: 120px 0;
 }
@@ -452,10 +303,11 @@ color: var(--primary-text-color);
     display: flex;
     padding-top: 120px; 
     padding-bottom: 120px;
+    gap: 24px;
 
 }
 
-.main-list.list:not(:last-child) {
+.main-list-list:not(:last-child) {
     margin-right: 24px;
     gap: 24px;
 }
