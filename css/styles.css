@@ -293,7 +293,7 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
-/* container possibilities */
+/* possibilities */
 
 .possibilities {
     padding: 120px 0;
@@ -434,8 +434,6 @@ color: var(--primary-text-color);
     gap: 24px;
 }
 
-
-
 .sectio-team {
     padding: 120px 0;
 }
@@ -460,19 +458,6 @@ color: var(--primary-text-color);
     text-align: center;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .first-title.team {
     font-weight: 700;
     font-size: 36px;
@@ -488,25 +473,6 @@ color: var(--primary-text-color);
 
 .portfolio {
     padding: 96px 0 120px 0;
-}
-
-.visually-title {
-    font-weight: 500;
-    font-size: 20px;
-    color: var(--title-text-color);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .main-list.list {
@@ -543,9 +509,7 @@ color: var(--primary-text-color);
 .row.list {
     display: flex;    
     flex-wrap: wrap;
-}
-
-.row.list {
+    column-gap: 24px;
     row-gap: 48px;
 }
 
