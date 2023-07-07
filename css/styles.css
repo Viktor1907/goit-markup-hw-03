@@ -298,7 +298,19 @@ color: var(--primary-text-color);
 .main-list-list {
     display: flex;
     gap: 24px;
+}
 
+.main.list {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    width: calc((100% - 72px) / 4);
+}
+
+.main-list {
+    margin-bottom: 8px;
 }
 
 .main-list-list:not(:last-child) {
@@ -377,6 +389,7 @@ color: var(--primary-text-color);
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     gap: 24px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .compoid.list.team {
@@ -439,6 +452,11 @@ color: var(--primary-text-color);
 }
 
 /*Portfolio*/
+
+.portfolio {
+    padding-top: 96px; 
+    padding-bottom: 120px
+}
 
 .main-list.list {
     display: flex;
